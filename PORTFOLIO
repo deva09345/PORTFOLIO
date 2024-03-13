@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Portfolio</title>
+    
+    
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="" class="logo">
+                <h2>DEVARAJ <span> K</span></h2>
+            </a>
+            <ul>
+                <li><a href="#About">About </a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contact">Contact </a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="header-container container">
+            <div class="header-left">
+                <h1>
+                    Hello,
+
+                    <p class="name"> I am <span>DEVARAJ K</span></p>
+                </h1>
+                <p>Proficient in HTML,CSS, Javascript and React.js with
+                    experience in windows and linux<br> environmenst
+                    committed to deliveing hight-quality and driving organzation growth.
+                </p>
+
+                <h5>Frontend Developer</h5>
+                <br>
+                <div class="header-action-aria">
+                    <a href="c:\Users\deva0\Downloads\cv.pdf" download class="btn btn-primary">Download CV</a>
+                    <a href="" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="c:\Users\deva0\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\EB1848290D5A7DE9C9CCABC67FEFA211\WhatsApp Image 2024-03-04 at 09.18.09_77e7ec3f.jpg "alt="">
+            </div>
+    </header>
+
+    <section id="About">
+        <h1><span>A</span>BOUT</h1>
+        <div class="container about-container">
+            <p>I'm a diligent <span>Frontend Developer </span>, passionately committed to refining my <span> CSS, HTML,
+                </span> and <span> React </span> skills. My
+                relentless dedication drives me to continually learn and adapt, staying at the forefront of <span>web
+                    development</span> trends. My goal is to create captivating, responsive, and user-friendly web
+                interfaces.</p>
+        </div>
+        <div class="about-content">
+            <article class="about-article">
+                <img src="data:image/png;base64,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" alt="">
+                <h5>FULL NAME</h5>
+                <p>DEVARAJ K</p>
+
+            </article>
+            <article class="about-article">
+                <img src="c:\Users\deva0\Downloads\gmail-icon-free-png.webp" alt="">
+                <h5>EMAIL</h5>
+                <p>230169.ec@rmkec.ac.in </p>
+
+            </article>
+            <article class="about-article">
+                <img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="">
+                <h5>Linkedin</h5>
+                <p>www.linkedin.com/in/devaraj k-ab9345</p>
+
+            </article>
+            <article class="about-article">
+                <img src="https://w7.pngwing.com/pngs/915/706/png-transparent-blue-call-icon-dialer-android-google-play-telephone-phone-blue-text-telephone-call-thumbnail.png" alt="">
+                <h5>PHONE </h5>
+                <p>9345307080</p>
+
+            </article>
+        </div>
+    </section>
+
+
+    <section id="Services">
+        <h1><span>W</span>hat I Do</h1>
+
+        <div class="container services-container">
+            <article class="services-article">
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/323723824/original/073ca838e34cd9dd10aaa5619648b1bf5696164b/create-you-a-logo-design-nft-design-profile-photo-and-art.jpeg" alt="">
+                <h2>Software Development</h2>
+                <p>Software development services encompass designing, coding, testing, and maintaining applications to
+                    meet specific client needs, delivering tailored software solutions.</p>
+            </article>
+            <article class="services-article">
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/323723824/original/073ca838e34cd9dd10aaa5619648b1bf5696164b/create-you-a-logo-design-nft-design-profile-photo-and-art.jpeg" alt="">
+                <h2>Web
+                    Development</h2>
+                <p>Web development
+
+                    Crafting websites by coding, designing, and optimizing for functionality, performance, and user
+                    experience, enabling online presence and interaction.</p>
+            </article>
+            <article class="services-article">
+                <img src="https://seeklogo.com/images/P/python-logo-C50EED1930-seeklogo.com.png" alt="">
+                <h2>Python Programming</h2>
+                <p>
+
+                 Python is extensively applied in data science, data analysis, machine learning, data engineering, web development, software development, and other fields.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1> <span>M</span>y Skills</h1>
+        <div class="container skills-container">
+            <article class="skill-article">
+
+                <h4>HTML </h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>CSS</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Javascript</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>MySql</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Python</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>WebDesign</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Testing</h4>
+            </article>
+            <article class="skill-article">
+
+                <h4>Promt Engineering</h4>
+            </article>
+
+        </div>
+    </section>
+
+
+    <section id="Blog">
+        <div class="row">
+            <div class="header">
+                <h1>B<span>log</span></h1>
+                <p>Welcome to the dynamic world of front-end development, web design, and web development. In this
+                    concise guide, we'll delve into the key aspects of this exciting field.</p>
+            </div>
+            <div class="content">
+                <div class="card">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ym3eyIoIzGIaI-M7D8QYyf2nFYWM1mEkgw&usqp=CAU" alt="">
+                    <br>
+                    <p>
+                        Web design is the art of crafting visually appealing and user-friendly websites, blending
+                        elements like typography, color theory, and layout to create memorable online experiences. HTML,
+                        CSS, and JavaScript are the cornerstone languages that enable us to build interactive and
+                        responsive websites, making them not only look great but also function seamlessly on various
+                        devices interface.
+
+                    </p>
+                </div>
+                <div class="card">
+
+                    <img src="https://img.freepik.com/premium-vector/design-code-logo-coding-logo-template_390316-4.jpg" alt="">
+                    <br>
+                    <p>
+                        Responsive web design ensures that websites adapt effortlessly to different screen sizes,
+                        offering a consistent experience across platforms. As you progress, you can explore frameworks
+                        like Bootstrap or delve into user-centric design principles to create intuitive interfaces. Web
+                        accessibility creativity and innovation, waiting for you to explore world-wide.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <h1> <span>Get</span> In Touch</h1>
+        <div class="contatact-container container">
+            <form>
+                <div class="form-top">
+                    <input type="text" placeholder="  First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="number" placeholder="Phone Number" required>
+
+                </div>
+                <div class="form-bottom">
+                    <textarea name="message" placeholder="message"></textarea>
+                    <button type="submit" class="btn btn-primary">Sumbit Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        &copy;Devaraj k
+
+    </footer>
+    <sc"></script>
+
+</body>
+</html>
